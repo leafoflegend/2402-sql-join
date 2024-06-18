@@ -1,0 +1,19 @@
+{
+  "name": "2402-sql-join",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "SEED=true node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  }
+}
